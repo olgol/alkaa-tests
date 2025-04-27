@@ -102,15 +102,17 @@ dependencies {
     implementation(libs.compose.activity)
     implementation(libs.androidx.playcore)
     implementation(libs.koin.core)
+
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.0")
+    androidTestImplementation("androidx.test:runner:1.5.0")
+    androidTestImplementation("androidx.test:rules:1.4.0")
+    androidTestImplementation("androidx.test.ext:junit-ktx:1.2.1")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.7.8")
     androidTestImplementation("io.qameta.allure:allure-kotlin-model:2.4.0")
     androidTestImplementation("io.qameta.allure:allure-kotlin-commons:2.4.0")
     androidTestImplementation("io.qameta.allure:allure-kotlin-junit4:2.4.0")
     androidTestImplementation("io.qameta.allure:allure-kotlin-android:2.4.0")
     androidTestUtil("androidx.test:orchestrator:1.5.1")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.0")
-    androidTestImplementation("androidx.test:runner:1.5.0")
-    androidTestImplementation("androidx.test:rules:1.4.0")
-    androidTestImplementation("androidx.test.ext:junit-ktx:1.2.1")
 }
 
 fun readProperties(propertiesFile: File) = Properties().apply {
