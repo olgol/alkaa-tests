@@ -3,9 +3,7 @@ package com.escodro.alkaa
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsNotDisplayed
 import androidx.compose.ui.test.assertTextEquals
-import androidx.compose.ui.test.filter
 import androidx.compose.ui.test.hasText
-import androidx.compose.ui.test.isEditable
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -22,7 +20,6 @@ import io.qameta.allure.kotlin.junit4.Tag
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import java.lang.Thread.sleep
 import kotlin.apply
 
 @RunWith(AllureAndroidJUnit4::class)

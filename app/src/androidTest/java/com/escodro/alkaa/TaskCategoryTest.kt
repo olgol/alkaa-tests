@@ -1,6 +1,5 @@
 package com.escodro.alkaa
 
-import android.icu.text.RelativeDateTimeFormatter.Direction.LAST
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -19,7 +18,6 @@ import junit.framework.TestCase.fail
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import java.lang.Thread.sleep
 
 @RunWith(AllureAndroidJUnit4::class)
 class TaskCategoryTest {
