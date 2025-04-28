@@ -1,0 +1,68 @@
+{
+    "name": "Searching non-existing task",
+    "start": 1745861571989,
+    "stop": 1745861575450,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Search task 'taskName'",
+            "start": 1745861572905,
+            "stop": 1745861572906,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "a2f64941-d1bd-4af0-9030-16ea11e4e143",
+    "historyId": "ded495c3943483930fb6bc9f9dd43c99",
+    "fullName": "com.escodro.alkaa.SearchTaskTest.searchNonExistentTask",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.SearchTaskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "searchNonExistentTask"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.SearchTaskTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

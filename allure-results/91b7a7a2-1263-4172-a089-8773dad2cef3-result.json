@@ -1,0 +1,107 @@
+{
+    "name": "Create task with description",
+    "start": 1745861598005,
+    "stop": 1745861603785,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Create task task with description with description some description",
+            "start": 1745861598789,
+            "stop": 1745861598789,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Create task task with description",
+            "start": 1745861598789,
+            "stop": 1745861598789,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Add description to task",
+            "start": 1745861599930,
+            "stop": 1745861599930,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Complete task task with description",
+            "start": 1745861602341,
+            "stop": 1745861602341,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "91b7a7a2-1263-4172-a089-8773dad2cef3",
+    "historyId": "692e54d45645656b7efbf8d945b04d35",
+    "fullName": "com.escodro.alkaa.TasksTest.createTaskWithDescription",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "createTaskWithDescription"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

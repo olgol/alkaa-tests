@@ -1,0 +1,107 @@
+{
+    "name": "Add category to task",
+    "start": 1745861607535,
+    "stop": 1745861612829,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Add category Personal to task Task with no category",
+            "start": 1745861608373,
+            "stop": 1745861608373,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Create task Task with no category",
+            "start": 1745861608373,
+            "stop": 1745861608373,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Select task category",
+            "start": 1745861610269,
+            "stop": 1745861610269,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Complete task Task with no category",
+            "start": 1745861611527,
+            "stop": 1745861611527,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "54fd64ae-6af2-47f8-ac66-5664655c1b05",
+    "historyId": "d3952aeecbbf6124cdcb1b8d2c7a3b6",
+    "fullName": "com.escodro.alkaa.TasksTest.addCategoryToTaskWithoutCategory",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "addCategoryToTaskWithoutCategory"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

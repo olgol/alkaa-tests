@@ -1,0 +1,81 @@
+{
+    "name": "Create task with category",
+    "start": 1745861603823,
+    "stop": 1745861607511,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Create task Task for create task testing with category Work",
+            "start": 1745861604690,
+            "stop": 1745861604690,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Complete task Task for create task testing",
+            "start": 1745861606064,
+            "stop": 1745861606064,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "ff8c6f9f-b16b-4721-9b62-18054494e5c1",
+    "historyId": "a8137c06757564680a3282b6509bd04b",
+    "fullName": "com.escodro.alkaa.TasksTest.createTaskWithCategory",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "createTaskWithCategory"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

@@ -10,6 +10,10 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
+repositories {
+    mavenCentral()
+}
+
 android {
     defaultConfig {
         applicationId = "com.escodro.alkaa"

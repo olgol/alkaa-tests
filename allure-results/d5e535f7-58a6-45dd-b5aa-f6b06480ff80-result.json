@@ -1,0 +1,81 @@
+{
+    "name": "Delete category",
+    "start": 1745861589817,
+    "stop": 1745861594601,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Create category Personal",
+            "start": 1745861590893,
+            "stop": 1745861590893,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Remove category Personal",
+            "start": 1745861591937,
+            "stop": 1745861591937,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "d5e535f7-58a6-45dd-b5aa-f6b06480ff80",
+    "historyId": "915b5f7243bbf98e627a6cfa0efeed9b",
+    "fullName": "com.escodro.alkaa.TaskCategoryTest.checkDeleteCategory",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkDeleteCategory"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

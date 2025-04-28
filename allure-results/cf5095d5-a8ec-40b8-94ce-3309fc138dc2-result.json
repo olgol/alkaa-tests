@@ -1,0 +1,94 @@
+{
+    "name": "Complete task",
+    "start": 1745861616005,
+    "stop": 1745861619445,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Complete task Task for complete",
+            "start": 1745861616773,
+            "stop": 1745861616773,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Create task Task for complete",
+            "start": 1745861616773,
+            "stop": 1745861616773,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Complete task Task for complete",
+            "start": 1745861617616,
+            "stop": 1745861617616,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "cf5095d5-a8ec-40b8-94ce-3309fc138dc2",
+    "historyId": "49586b527a1e3497cbd5f7a117881144",
+    "fullName": "com.escodro.alkaa.TasksTest.completeTask",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "completeTask"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

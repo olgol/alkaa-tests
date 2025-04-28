@@ -1,0 +1,68 @@
+{
+    "name": "Check 'More' screen",
+    "start": 1745861566679,
+    "stop": 1745861571377,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check screen 'More'",
+            "start": 1745861569495,
+            "stop": 1745861569495,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "c899ff33-ed72-4c62-969d-df5dad6d132c",
+    "historyId": "c515f91470c54629b3b70e8fea59f2f8",
+    "fullName": "com.escodro.alkaa.MoreTest.checkMoreChapter",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.MoreTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkMoreChapter"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.MoreTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

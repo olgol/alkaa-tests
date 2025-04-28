@@ -1,0 +1,68 @@
+{
+    "name": "Creating new category",
+    "start": 1745861594633,
+    "stop": 1745861597978,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Create category Personal",
+            "start": 1745861595763,
+            "stop": 1745861595763,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "d8cf3865-5579-461e-9200-2ddf5a1248aa",
+    "historyId": "81e16b6767bbd999ebd56782cb0f43fc",
+    "fullName": "com.escodro.alkaa.TaskCategoryTest.newCategoryCreate",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "newCategoryCreate"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

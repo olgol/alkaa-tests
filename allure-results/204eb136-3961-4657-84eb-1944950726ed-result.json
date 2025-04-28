@@ -1,0 +1,94 @@
+{
+    "name": "Create task without description",
+    "start": 1745861623706,
+    "stop": 1745861627283,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Create task Task without description without description",
+            "start": 1745861624690,
+            "stop": 1745861624690,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Create task Task without description",
+            "start": 1745861624690,
+            "stop": 1745861624690,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        },
+        {
+            "name": "Complete task Task without description",
+            "start": 1745861625759,
+            "stop": 1745861625759,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "204eb136-3961-4657-84eb-1944950726ed",
+    "historyId": "72866535e781c91ced3b70867a0e6b85",
+    "fullName": "com.escodro.alkaa.TasksTest.createTaskWoDescription",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "createTaskWoDescription"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TasksTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}

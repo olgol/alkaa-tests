@@ -1,0 +1,68 @@
+{
+    "name": "Update existing category",
+    "start": 1745861586378,
+    "stop": 1745861589789,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Update category name to Shared",
+            "start": 1745861587535,
+            "stop": 1745861587535,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "aed73f6f-080b-4aa8-9bfa-105d6009dc2c",
+    "historyId": "e25e07736e17af6adb9c42aed3275631",
+    "fullName": "com.escodro.alkaa.TaskCategoryTest.updateExistingCategory",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.escodro.alkaa"
+        },
+        {
+            "name": "testClass",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "updateExistingCategory"
+        },
+        {
+            "name": "suite",
+            "value": "com.escodro.alkaa.TaskCategoryTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(79)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "tag",
+            "value": "Regress"
+        }
+    ]
+}
