@@ -1,19 +1,16 @@
 package com.escodro.alkaa
 
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.isDisplayed
-import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.performTextReplacement
-import androidx.compose.ui.test.printToLog
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.escodro.shared.MainView
 import io.qameta.allure.android.runners.AllureAndroidJUnit4
 import io.qameta.allure.kotlin.Allure
-import io.qameta.allure.kotlin.Description
 import io.qameta.allure.kotlin.Step
 import io.qameta.allure.kotlin.junit4.DisplayName
 import org.junit.Rule
@@ -21,10 +18,28 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 @RunWith(AllureAndroidJUnit4::class)
-class CategoryTest {
+class TaskCategoryTest {
 
     @get:Rule
     val composeRule = createComposeRule()
+
+    @Test
+    @DisplayName("Create category with existing name")
+    fun createExistingCategory() {
+        val categoryName = "Personal"
+
+        composeRule.setContent { MainView() }
+        composeRule.onNodeWithText("Categories").performClick()
+
+        if (!isCategoryExist(categoryName)) {
+            createCategory(categoryName)
+            composeRule.onNodeWithText(categoryName).assertExists()
+        }
+
+        composeRule.onNodeWithText(categoryName).performClick()
+        createCategory(categoryName)
+        composeRule.onNodeWithText("Wow! All tasks are completed!").assertIsDisplayed()
+    }
 
     @Test
     @DisplayName("Creating new category")
