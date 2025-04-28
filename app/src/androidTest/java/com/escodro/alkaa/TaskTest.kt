@@ -18,6 +18,7 @@ import io.qameta.allure.android.runners.AllureAndroidJUnit4
 import io.qameta.allure.kotlin.Allure
 import io.qameta.allure.kotlin.Step
 import io.qameta.allure.kotlin.junit4.DisplayName
+import io.qameta.allure.kotlin.junit4.Tag
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -31,6 +32,7 @@ class TasksTest {
     val composeRule = createComposeRule()
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create task with category")
     fun createTaskWithCategory() {
         val taskName = "Task for create task testing"
@@ -54,6 +56,7 @@ class TasksTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create task with no category")
     fun createTaskWithoutCategory() {
         val taskName = "Task with no category"
@@ -71,6 +74,7 @@ class TasksTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Add category to task")
     fun addCategoryToTaskWithoutCategory() {
         val taskName = "Task with no category"
@@ -94,6 +98,7 @@ class TasksTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create task with empty name")
     fun cannotCreateEmptyTask() {
         composeRule.setContent { MainView() }
@@ -112,6 +117,7 @@ class TasksTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create task without description")
     fun createTaskWoDescription() {
         val taskName = "Task without description"
@@ -125,10 +131,11 @@ class TasksTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create task with description")
     fun createTaskWithDescription() {
         val taskName = "task with description"
-        val description = "Task with description"
+        val description = "some description"
         composeRule.setContent { MainView() }
         composeRule.apply {
             Allure.step("Create task $taskName with description $description")
@@ -147,6 +154,7 @@ class TasksTest {
 
 
     @Test
+    @Tag("Regress")
     @DisplayName("Complete task")
     fun completeTask() {
         val taskName = "Task for complete"

@@ -1,6 +1,7 @@
 package com.escodro.alkaa
 
-import androidx.compose.ui.test.assertIsDisplayed
+import android.icu.text.RelativeDateTimeFormatter.Direction.LAST
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -13,9 +14,12 @@ import io.qameta.allure.android.runners.AllureAndroidJUnit4
 import io.qameta.allure.kotlin.Allure
 import io.qameta.allure.kotlin.Step
 import io.qameta.allure.kotlin.junit4.DisplayName
+import io.qameta.allure.kotlin.junit4.Tag
+import junit.framework.TestCase.fail
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.lang.Thread.sleep
 
 @RunWith(AllureAndroidJUnit4::class)
 class TaskCategoryTest {
@@ -24,9 +28,10 @@ class TaskCategoryTest {
     val composeRule = createComposeRule()
 
     @Test
+    @Tag("Regress")
     @DisplayName("Create category with existing name")
     fun createExistingCategory() {
-        val categoryName = "Personal"
+        val categoryName = "Work"
 
         composeRule.setContent { MainView() }
         composeRule.onNodeWithText("Categories").performClick()
@@ -35,13 +40,18 @@ class TaskCategoryTest {
             createCategory(categoryName)
             composeRule.onNodeWithText(categoryName).assertExists()
         }
-
-        composeRule.onNodeWithText(categoryName).performClick()
         createCategory(categoryName)
-        composeRule.onNodeWithText("Wow! All tasks are completed!").assertIsDisplayed()
+        composeRule.onAllNodes(hasText(categoryName, substring = true)).get(1).assertExists()
+
+        if (composeRule.onAllNodes(hasText(categoryName, substring = true)).get(1).isDisplayed()) {
+            composeRule.onAllNodes(hasText(categoryName, substring = true)).get(1).performClick()
+            deleteCategory(categoryName)
+            fail("Should not be created category doubles")
+        }
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Creating new category")
     fun newCategoryCreate() {
         val categoryName = "Personal"
@@ -58,6 +68,7 @@ class TaskCategoryTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Update existing category")
     fun updateExistingCategory() {
         val oldCategoryName = "Personal"
@@ -77,6 +88,7 @@ class TaskCategoryTest {
     }
 
     @Test
+    @Tag("Regress")
     @DisplayName("Delete category")
     fun checkDeleteCategory() {
         val categoryName = "Personal"
