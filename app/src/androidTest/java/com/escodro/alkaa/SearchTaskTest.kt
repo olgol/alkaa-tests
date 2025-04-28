@@ -33,7 +33,6 @@ class SearchTaskTest {
     @DisplayName("Searching existing task")
     fun searchTask() {
         val taskName = "Task for Search"
-        val taskCategory = "Personal"
         composeRule.setContent { MainView() }
         composeRule.apply {
             addTask(taskName)
